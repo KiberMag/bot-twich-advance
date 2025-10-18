@@ -2,11 +2,11 @@ import PyInstaller.__main__
 import os
 
 PyInstaller.__main__.run([
-    'tw-bot-v2.py',
+    'twbotcoreV2.1.py',
     '--onefile',
     '--windowed',
     '--name=BotController',
-    # '--icon=app.ico',  # опционально
+    '--icon=logo.ico',  # опционально
     # '--add-data=chromedriver.exe;.',  # если используете chromedriver
     # '--hidden-import=selenium'
 ])
