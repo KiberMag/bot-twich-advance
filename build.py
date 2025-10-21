@@ -2,7 +2,7 @@ import PyInstaller.__main__
 import os
 
 PyInstaller.__main__.run([
-    'twbotcoreV2.1.py',
+    'bot-tw-lite-win.py',
     '--onefile',
     '--windowed',
     '--name=BotController',
