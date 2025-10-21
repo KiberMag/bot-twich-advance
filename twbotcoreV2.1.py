@@ -64,7 +64,7 @@ class TwitchBotGUI:
 
         # Переменные для настроек
         self.client_id_var = tk.StringVar(value="c52xxwb19ljwwbi0kew1fkfn84p9zi")
-        self.client_secret_var = tk.StringVar(value="zpktycohn9jsywgmbj0k7jq6t57btl")
+        self.client_secret_var = tk.StringVar(value="zpktycohn9jsywgmbj0k7jq6t67btl")
         self.user_id_var = tk.StringVar(value="kibermag")
         self.bot_id_var = tk.StringVar()
         self.owner_id_var = tk.StringVar()
