@@ -41,7 +41,7 @@ def mouse_speed_down(f_time=5):
 def mouse_speed_up(f_time=5):
     set_mouse_speed = 113
     print("mouse_speed_up")
-    ctypes.windll.user32.SystemParametersInfoA(set_mouse_speed, 0, 40, 0)
+    ctypes.windll.user32.SystemParametersInfoA(set_mouse_speed, 0, 20, 0)
     threading.Timer(f_time, mouse_speed_norm).start()
 
 def rotate_display_v1_restore():
